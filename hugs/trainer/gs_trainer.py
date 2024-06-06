@@ -260,7 +260,6 @@ class GaussianTrainer():
         rand_idx_iter = RandomIndexIterator(len(self.train_dataset))
         sgrad_means, sgrad_stds = [], []
         for t_iter in range(self.cfg.train.num_steps+1):
-            print(t_iter)
             render_mode = self.cfg.mode
             
             if self.scene_gs and self.cfg.train.optim_scene:

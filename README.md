@@ -4,7 +4,7 @@ This repository is a term project for Interactive Computer Graphics 2024 Spring.
 
 # Getting Started
 
-This repository is tested on Ubuntu 22.04.4 with RTX A6000 and CUDA 11.7. Run the following commands to create a conda environment and install the required packages.
+This repository is tested on an RTX A6000 GPU with Ubuntu 22.04 and CUDA 11.7. Run the following commands to create a conda environment and install the required packages.
 ```
 conda create -n hugs python=3.8 -y
 
@@ -29,9 +29,6 @@ Please refer to the original repository [HUGS](https://github.com/apple/ml-hugs?
 
 # Training
     python main.py --cfg_file hugs_human_scene.yaml
-
-# Evaluation and Animation
-    python scripts/evaluate.py
 
 # Acknowledgement
 The implementation took reference from [HUGS](https://github.com/apple/ml-hugs?tab=readme-ov-file#preparing-the-datasets-and-models) and [HumanNeRF](https://github.com/chungyiweng/humannerf)
