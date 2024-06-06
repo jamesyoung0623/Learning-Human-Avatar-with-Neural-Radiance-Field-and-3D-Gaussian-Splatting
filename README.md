@@ -4,7 +4,7 @@ This repository is a term project for Interactive Computer Graphics 2024 Spring.
 
 # Getting Started
 
-This repository is tested on Ubuntu 22.04.4 with CUDA 11.7. Run the following commands to create a conda environment and install the required packages.
+This repository is tested on Ubuntu 22.04.4 with RTX A6000 and CUDA 11.7. Run the following commands to create a conda environment and install the required packages.
 ```
 conda create -n hugs python=3.8 -y
 
